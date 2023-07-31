@@ -1,0 +1,135 @@
+.subtitle{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 16px;
+    opacity: 0;
+    animation: fadeIn 2s 3s forwards;
+    margin-left: 20px;
+
+    .stack{
+        display: block;
+        color: #ffd900b2;
+        font-size: 18px;
+        opacity: 0;
+        animation: fadeInUp 3s 2s forwards;
+    }
+}
+
+.stage-cube-cont{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+.cubeSpinner{
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+}
+
+.cubeSpinner div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
+    display: grid;
+    place-content: center;
+    font-size: 100px;
+    box-shadow: 0 0 20px 0 lightyellow
+}
+
+.face1{
+    transform: translateZ(100px);
+}
+
+.face2{
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.face3{
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+}
+
+.face4{
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+}
+
+.face5{
+    transform: rotateY(-90deg) rotateZ(-90deg) translateZ(100px);
+}
+
+.face6{
+    transform: rotateX(-90deg)  rotateZ(-90deg) translateZ(100px);
+}
+
+.contact-btn{
+    margin-top: 2rem;
+    z-index: 3;
+    opacity: 0;
+    animation: fadeInUp 3s 2s forwards;
+}
+
+
+
+
+@keyframes spincube {
+    from,
+    to{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16%{
+        transform: rotateY(-90deg);
+    }
+
+    33%{
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+
+    50%{
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+
+    66%{
+        transform: rotateY(-270deg) rotateZ(90deg);
+    }
+
+
+    83%{
+        transform: rotateY(90deg);
+    }
+}
+
+
+/* RESPONSIVE FOR SMALLER SCREEN */
+@media screen and  (max-width : 1200px){
+
+    .stage-cube-cont{
+        position: initial;
+        width: 100%;
+        overflow: visible;
+        height: 0%;
+        padding-top: 3rem;
+        margin-bottom: 15rem;
+    }
+
+    .about-page{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .contact-btn{
+        margin-bottom: 5rem;
+    }
+
+
+}

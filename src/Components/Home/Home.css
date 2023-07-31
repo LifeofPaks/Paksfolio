@@ -1,0 +1,107 @@
+.home-page .text-zone{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.home-page .text-zone h1{
+    color: #fff;
+    margin: 0;
+    font-size: 53px;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+}
+
+.home-page .text-zone h1::before{
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    position: absolute;
+    margin-top: -40px;
+    opacity: .6;
+    left: 15px;
+    font-size: 18px;
+}
+
+.home-page .text-zone h1::after{
+    content: '</h1>';
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    position: absolute;
+    opacity: .6;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.7s backwards;
+}
+
+h2{
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+    margin-bottom: 45px;
+}
+
+.flat-button{
+    color: #ffd700;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    transition: .3s;
+}
+
+.flat-button:hover{
+    color: #333;
+    background: #ffd700;
+}
+
+.hire-me{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* RESPONSIVE FOR SMALLER SCREEN */
+@media screen and  (max-width : 1200px){
+
+    .home-page .text-zone{
+        position: initial;
+        transform: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .home-page .text-zone h1::before{
+        margin-top: -30px;
+        left: 30px;
+    }
+    
+    .home-page .text-zone h1::after{
+        margin-top: 40px;
+        right: 35px;
+    }
+
+    .home-page .text-zone h1{
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: 1rem;
+    }
+    h2{
+        margin-top: 32px;
+        margin-bottom: 1rem;
+    }
+  }
