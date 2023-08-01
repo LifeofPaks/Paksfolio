@@ -49,6 +49,18 @@
                 transition: .5s;
             }
 
+            .tools{
+                color: #ffd700;
+                font-size: 14px;
+                text-transform: uppercase;
+                position: absolute;
+                bottom: -2rem;
+                left: 10px;
+                transition: .5s;
+                letter-spacing: 1px;
+                z-index: 3;
+            }
+
             .title-overlay{
                 position: absolute;
                 left: 0;
@@ -84,6 +96,10 @@
                     color: #ffd700;
                     background: transparent;
                     border: 1px solid #ffd700;
+                }
+
+                .tools{
+                    bottom: 10px;
                 }
             }
         }

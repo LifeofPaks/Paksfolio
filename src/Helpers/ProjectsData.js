@@ -12,6 +12,7 @@ export const ProjectData = [
         image: Port1, 
         url : "https://e-commerce-paks.netlify.app/",
         animationDelay: 'w-1',
+        tools: 'HTML, CSS, JavaScript',
         id: 1
     },
 
@@ -20,6 +21,7 @@ export const ProjectData = [
         image: Port2,
         url: "https://facebook-clone-paks.netlify.app/",
         animationDelay: 'w-2',
+        tools: 'HTML, CSS, JavaScript',
         id: 2
     },
 
@@ -28,6 +30,7 @@ export const ProjectData = [
         image: Port3,
         url: "https://nike-product-page-paks.netlify.app/",
         animationDelay: 'w-3',
+        tools: 'HTML, CSS, JavaScript',
         id: 3
     },
 
@@ -36,6 +39,7 @@ export const ProjectData = [
         image: Port4,
         url: "https://linkedin-clone-paks.netlify.app/",
         animationDelay: 'w-4',
+        tools: 'HTML, CSS, JavaScript',
         id: 4
     },
 
@@ -44,6 +48,7 @@ export const ProjectData = [
         image: Port5,
         url:   "https://crispmovies.netlify.app/",
         animationDelay: 'w-5',
+        tools: 'HTML, CSS, JavaScript, API',
         id: 5
     },
 
@@ -52,6 +57,7 @@ export const ProjectData = [
         image: Port3,
         url: "https://nike-product-page-paks.netlify.app/",
         animationDelay: 'w-6',
+        tools: 'HTML, CSS, JavaScript',
         id: 6
     }
 ]
