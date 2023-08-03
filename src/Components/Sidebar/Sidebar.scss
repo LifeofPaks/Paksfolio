@@ -101,6 +101,12 @@ nav {
     }
   }
 
+  .nav-link.skills-link{
+    &:after{
+      content: 'SKILLS';
+    }
+  }
+
   .nav-link.contact-link{
     &:after{
       content: 'CONTACT';

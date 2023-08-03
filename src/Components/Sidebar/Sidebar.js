@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faBriefcase,
-  faClose,
   faEnvelope,
   faHome,
+  faScrewdriverWrench,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -74,6 +74,15 @@ const Sidebar = () => {
           className="portfolio-link nav-link"
         >
           <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+        </NavLink>
+
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          to="/skills"
+          className="skills-link nav-link"
+        >
+          <FontAwesomeIcon icon={faScrewdriverWrench} color="#4d4d4e" />
         </NavLink>
 
         <NavLink

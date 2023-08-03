@@ -59,7 +59,8 @@
 
 .about-page .page-title,
 .contact-page .page-title,
-.portfolio-page .page-title {
+.portfolio-page .page-title,
+.skills-page .page-title {
   color: #ffd700;
   margin: 0;
   font-size: 53px;
@@ -73,7 +74,8 @@
 
 .about-page .page-title::before,
 .contact-page .page-title::before,
-.portfolio-page .page-title::before {
+.portfolio-page .page-title::before,
+.skills-page .page-title::before {
   content: "<h1>";
   font-family: "La Belle Aurore";
   color: #ffd700;
@@ -87,7 +89,8 @@
 
 .about-page .page-title::after,
 .contact-page .page-title::after,
-.portfolio-page .page-title::after {
+.portfolio-page .page-title::after,
+.skills-page .page-title::after{
   content: "</h1>";
   font-family: "La Belle Aurore";
   color: #ffd700;
@@ -139,7 +142,8 @@
 
 .about-page .text-animate-hover:hover,
 .contact-page .text-animate-hover:hover,
-.portfolio-page .text-animate-hover:hover {
+.portfolio-page .text-animate-hover:hover,
+.skills-page .text-animate-hover:hover  {
   color: #fff;
 }
 
@@ -173,7 +177,8 @@
 
   .about-page .page-title,
   .contact-page .page-title,
-  .portfolio-page .page-title {
+  .portfolio-page .page-title,
+  .skills-page .page-title {
     left: 40px;
     width: fit-content;
   }
