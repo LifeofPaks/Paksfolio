@@ -11,6 +11,7 @@ import SassIcon from '../../assets/images/icons8-sass-240.png'
 import GitIcon from '../../assets/images/icons8-git-240.png'
 import GitHubIcon from '../../assets/images/icons8-github-240.png'
 import FirebaseIcon from '../../assets/images/icons8-firebase-240.png'
+import VsCodeIcon from '../../assets/images/icons8-visual-studio-code-2019-240.png'
 
 const SKills = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -44,10 +45,13 @@ const SKills = () => {
             <img src={ReactIcon} alt="icons-img" className="skills-icon" />
             <img src={SassIcon} alt="icons-img" className="skills-icon" />
             <img src={FirebaseIcon} alt="icons-img" className="skills-icon" />
+            <img src={VsCodeIcon} alt="icons-img" className="skills-icon" />
           </div>
         </div>
 
-        <div className="skills-spinner"></div>
+        <div className="skills-spinner">
+
+        </div>
       </div>
 
       <Loader type="pacman" />

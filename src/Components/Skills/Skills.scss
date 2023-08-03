@@ -2,25 +2,45 @@
     padding-left: 150px;
     padding-right: 20px;
     height: 100%;
-    width: 53%;
 
-    h3{
-        letter-spacing: 2px;
-        margin-top: 3rem;
-    }
 
-    .tools{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-
-        .skills-icon{
-            width: 100px;
-            cursor: pointer;
-            opacity: 0;
-            animation: rollIn 1s 3s forwards;
+    .bx-wrapper{
+        width: 53%;
+        h3{
+            letter-spacing: 2px;
+            margin-top: 3rem;
+        }
+    
+        .tools{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+    
+            .skills-icon{
+                width: 100px;
+                cursor: pointer;
+                opacity: 0;
+                animation: rollIn 1s 3s forwards;
+            }
         }
     }
+
+    .skills-spinner{
+        width: 40%;
+
+        .tools-list{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-height: 100vh;
+
+            h2{
+                color: #fff;
+            }
+        }
+       
+    }
+   
 
 }
 
