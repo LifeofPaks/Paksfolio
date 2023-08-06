@@ -4,6 +4,7 @@ import Port2 from "../assets/images/Facebook-clone.png";
 import Port3 from "../assets/images/project-img.png";
 import Port4 from "../assets/images/linkedin-clone.png";
 import Port5 from "../assets/images/crisp movies.png";
+import Port6 from "../assets/images/Admin Dashboard.png";
 
 
 export const ProjectData = [
@@ -53,11 +54,11 @@ export const ProjectData = [
     },
 
     {
-        title : 'Nike Product Page',
-        image: Port3,
-        url: "https://nike-product-page-paks.netlify.app/",
+        title : 'Admin Dashboard',
+        image: Port6,
+        url: "https://paks-admin-dashboard.netlify.app/",
         animationDelay: 'w-6',
-        tools: 'HTML, CSS, JavaScript',
+        tools: 'REACT, SASS, RECHARTS, MUI',
         id: 6
     }
 ]
