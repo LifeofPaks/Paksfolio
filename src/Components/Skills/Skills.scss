@@ -49,16 +49,30 @@
     .skills-page{
         padding-left: 0;
         padding-right: 0;
-        align-items: flex-start;
         width: 100%;
 
-        .page-title{
-            font-size: 33px;
-        }
+        .bx-wrapper{
+            width: 100%;
 
-        h3{
-            font-size: 18px;
+            .page-title{
+                font-size: 33px;
+            }
+
+            .tools{
+                width: 100%;
+                padding: 2rem;
+
+                .skills-icon{
+                    width: 80px;
+                }
+            }
+    
+            h3{
+                font-size: 18px;
+            }
+
         }
+        
     }
     
 }
