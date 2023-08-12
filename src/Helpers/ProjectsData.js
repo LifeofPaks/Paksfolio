@@ -1,5 +1,5 @@
 
-import Port1 from "../assets/images/e-commerce.png";
+import Port1 from "../assets/images/pakseverything.png";
 import Port2 from "../assets/images/Facebook-clone.png";
 import Port3 from "../assets/images/project-img.png";
 import Port4 from "../assets/images/linkedin-clone.png";
@@ -9,11 +9,11 @@ import Port6 from "../assets/images/Admin Dashboard.png";
 
 export const ProjectData = [
     {
-        title : 'E commerce Store',
+        title : 'Paks Everything Store',
         image: Port1, 
-        url : "https://e-commerce-paks.netlify.app/",
+        url : "https://pakseverythingstore.netlify.app/",
         animationDelay: 'w-1',
-        tools: 'HTML, CSS, JavaScript',
+        tools: 'REACT, SCSS',
         id: 1
     },
 
