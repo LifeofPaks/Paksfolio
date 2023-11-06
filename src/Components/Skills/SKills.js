@@ -12,6 +12,8 @@ import GitIcon from '../../assets/images/icons8-git-240.png'
 import GitHubIcon from '../../assets/images/icons8-github-240.png'
 import FirebaseIcon from '../../assets/images/icons8-firebase-240.png'
 import VsCodeIcon from '../../assets/images/icons8-visual-studio-code-2019-240.png'
+import TypescriptIcon from '../../assets/images/icons8-typescript-240.png'
+import NextIcon from '../../assets/images/icons8-nextjs-240.png'
 
 const SKills = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -37,6 +39,7 @@ const SKills = () => {
           <h3 className="subtitle">My Tools</h3>
 
           <div className="tools">
+            <img src={VsCodeIcon} alt="icons-img" className="skills-icon" />
             <img src={HTMLIcon} alt="icons-img" className="skills-icon" />
             <img src={CSSIcon} alt="icons-img" className="skills-icon" />
             <img src={JSIcon} alt="icons-img" className="skills-icon" />
@@ -45,7 +48,8 @@ const SKills = () => {
             <img src={ReactIcon} alt="icons-img" className="skills-icon" />
             <img src={SassIcon} alt="icons-img" className="skills-icon" />
             <img src={FirebaseIcon} alt="icons-img" className="skills-icon" />
-            <img src={VsCodeIcon} alt="icons-img" className="skills-icon" />
+            <img src={TypescriptIcon} alt="icons-img" className="skills-icon" />
+            <img src={NextIcon} alt="icons-img" className="skills-icon" />
           </div>
         </div>
 
