@@ -11,7 +11,7 @@ export const ProjectData = [
     image: Port5,
     url: "https://pakshomes.netlify.app/",
     animationDelay: "w-5",
-    tools: "REACT, Typescript, SCSS",
+    tools: "REACT, Typescript, Firebase, SCSS",
     id: 5,
   },
   {
