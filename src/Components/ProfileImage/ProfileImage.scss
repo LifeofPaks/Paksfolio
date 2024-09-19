@@ -1,5 +1,5 @@
 .image{
-    width: 400px;
+    width: 450px;
     position: absolute;
     right: 10%;
     top: 50%;
@@ -8,6 +8,8 @@
     animation: fadeIn 1s forwards;
     animation-delay: 3s;
     opacity: 0;
+    height: 550px;
+    object-fit: cover;
 
     &:before{
         content: '';
