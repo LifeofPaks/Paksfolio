@@ -9,7 +9,7 @@ export const ProjectData = [
   {
     title: "Rivero Trust Bank Plc",
     image: Port3,
-    url: "https://riverotrustbankplc.netlify.app/",
+    url: "https://rivero-trust-bank-plc.netlify.app",
     animationDelay: "w-1",
     tools: "NextJS, Typescript, SCSS",
     id: 3,
