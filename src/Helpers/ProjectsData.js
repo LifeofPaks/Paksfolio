@@ -18,7 +18,7 @@ export const ProjectData = [
     title: "Paks Homes Real Estate",
     image: Port5,
     url: "https://pakshomes.netlify.app/",
-    animationDelay: "w-2",
+    animationDelay: "w-5",
     tools: "REACT, Typescript, Firebase, SCSS",
     id: 5,
   },
