@@ -32,7 +32,7 @@ const Home = () => {
               </h1>
               <h2>Frontend Developer / JavaScript / React/ Next/ Typescript </h2>
               <div className="hire-me">
-                <a href="Paksresume.pdf" download className='flat-button'>View Resume</a>
+                <a href="Paks-Resume.pdf" download className='flat-button'>View Resume</a>
               </div>
           </div>
 
