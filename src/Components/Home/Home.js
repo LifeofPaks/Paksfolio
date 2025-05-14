@@ -30,9 +30,9 @@ const Home = () => {
                   <br />
                   <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
               </h1>
-              <h2>Frontend Developer / JavaScript / React/ Next/ Typescript </h2>
+              <h2>MERN STACK DEVELOPER </h2>
               <div className="hire-me">
-                <a href="Paks-Resume.pdf" download className='flat-button'>View Resume</a>
+                <a href="resume.pdf" download className='flat-button'>View Resume</a>
               </div>
           </div>
 

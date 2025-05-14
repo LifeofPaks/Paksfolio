@@ -39,41 +39,4 @@ export const ProjectData = [
     id: 4,
   },
 
-
-  // {
-  //   title: "Paks Everything Store",
-  //   image: Port1,
-  //   url: "https://pakseverythingstore.netlify.app/",
-  //   animationDelay: "w-3",
-  //   tools: "REACT, SCSS",
-  //   id: 1,
-  // },
-
-  // {
-  //   title: "Admin Dashboard",
-  //   image: Port6,
-  //   url: "https://paks-admin-dashboard.netlify.app/",
-  //   animationDelay: "w-4",
-  //   tools: "REACT, SASS, RECHARTS, MUI",
-  //   id: 6,
-  // },
-
-  // {
-  //   title: "Facebook Clone",
-  //   image: Port2,
-  //   url: "https://facebook-clone-paks.netlify.app/",
-  //   animationDelay: "w-5",
-  //   tools: "HTML, CSS, JavaScript",
-  //   id: 2,
-  // },
-
-  // {
-  //   title: "LinkedIn Clone",
-  //   image: Port4,
-  //   url: "https://linkedin-clone-paks.netlify.app/",
-  //   animationDelay: "w-6",
-  //   tools: "HTML, CSS, JavaScript",
-  //   id: 4,
-  // },
-
 ];

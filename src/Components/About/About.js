@@ -33,46 +33,30 @@ const About = () => {
               idx={15}
             />
           </h1>
-
           <h3 className="subtitle">
             I'm Promise Chukwudi Paks
-            <span className="stack"> &lt;A FrontEnd Web/&gt;</span>
+            <span className="stack"> &lt;Web Developer/&gt;</span>
           </h3>
           <p>
-            From the day I wrote my first line of code I knew I was hacked. My
-            passion for programming led me to master problem solving, the
-            ability to learn quickly and stay on top of new technologies. I
-            enjoy building innovative, user-friendly interfaces that delight
-            users and drive business results.
-          </p>
-
+            {" "}
+            From the moment I wrote my first line of code, I was hooked. Web
+            development quickly became more than a skill, it became a passion.
+            I thrive on turning ideas into interactive, user friendly
+            experiences that not only look great but deliver real results.{" "}
+          </p>{" "}
           <p>
-            As someone who has always had a passion for improving with
-            technology, I found myself drawn to web development and it quickly
-            turned into a full-blown passion.
-          </p>
-
+            {" "}
+            With a love for both design and problem-solving, I enjoy building
+            digital products that are intuitive, accessible, and impactful. I’m
+            always learning, always evolving, and always ready for the next
+            challenge.{" "}
+          </p>{" "}
           <p>
-            As a Front-End Developer with a passion for both coding and design,
-            I am constantly seeking out new ways to bring my creative vision to
-            life or seeking inspiration in the world around me. I am a firm
-            believer in the power of collaboration and enjoy working closely
-            with designers and development teams to ensure that projects are
-            delivered on time and exceed expectations.
+            {" "}
+            Whether you're starting from scratch or reimagining something
+            existing, I’d love to help bring your vision to life. Let’s build
+            something amazing together.{" "}
           </p>
-          <p>
-            What I love most about Front-End Development is the way that it
-            combines creativity with technical skills. It's a constantly
-            evolving field that demands both artistry and precision, and I
-            relish the opportunity to explore new technologies and techniques
-            that help me stay ahead of the curve.
-          </p>
-          <p>
-            Whether you're looking to create a brand-new website from scratch or
-            revamp an existing one. I'm here to help. Let's work together to
-            build something truly exceptional!
-          </p>
-
           <div className="contact-btn">
             <Link to="/contact" className="flat-button">
               CONTACT ME

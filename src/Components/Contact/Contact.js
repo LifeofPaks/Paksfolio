@@ -123,7 +123,7 @@ const Contact = () => {
             </h4>
             <a href="mailto:promise.chukwudi@rocketmail.com" className="email">
               <FontAwesomeIcon className="icon" icon={faEnvelope} />
-              Promise.chukwudi@rocketmail.com
+              Promisechukwudi.pc@gmail.com
             </a>
           </div>
           <div className="map-wrapper">
