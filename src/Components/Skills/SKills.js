@@ -2,9 +2,6 @@ import "./Skills.scss";
 import React, { useState, useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import Loader from "react-loaders";
-
-import HTMLIcon from '../../assets/images/icons8-html5-240.png'
-import CSSIcon from '../../assets/images//icons8-css3-240.png'
 import JSIcon from '../../assets/images/icons8-javascript-240.png'
 import ReactIcon from '../../assets/images/icons8-react-native-240.png'
 import SassIcon from '../../assets/images/icons8-sass-240.png'
@@ -44,8 +41,6 @@ const SKills = () => {
 
           <div className="tools">
             <img src={VsCodeIcon} alt="icons-img" className="skills-icon" />
-            <img src={HTMLIcon} alt="icons-img" className="skills-icon" />
-            <img src={CSSIcon} alt="icons-img" className="skills-icon" />
             <img src={JSIcon} alt="icons-img" className="skills-icon" />
             <img src={GitIcon} alt="icons-img" className="skills-icon" />
             <img src={GitHubIcon} alt="icons-img" className="skills-icon" />

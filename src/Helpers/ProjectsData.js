@@ -2,8 +2,6 @@ import Port1 from "../assets/images/zyena.png";
 import Port2 from "../assets/images/minute-master.png";
 import Port3 from "../assets/images/relsify.png";
 import Port4 from "../assets/images/E-commerce-store-template.png";
-import Port5 from "../assets/images/Paks homes.png";
-import Port6 from "../assets/images/Admin Dashboard.png";
 
 export const ProjectData = [
   {

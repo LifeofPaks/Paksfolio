@@ -10,6 +10,9 @@ import {
   faJsSquare,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
 
@@ -71,15 +74,15 @@ const About = () => {
             </div>
 
             <div className="face2">
-              <FontAwesomeIcon icon={faJsSquare} color="#efd81d" />
+              <RiNextjsFill/>
             </div>
 
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28a4d9" />
+              <RiTailwindCssFill color="#28a4d9" />
             </div>
 
             <div className="face4">
-              <FontAwesomeIcon icon={faHtml5} color="#f06529" />
+            <SiTypescript color="#3178C6" />
             </div>
 
             <div className="face5">
